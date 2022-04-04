@@ -1,7 +1,9 @@
 import './assets/css/App.css';
 import Presentation from './components/Presentation'
 import Navegator from './components/Navegator'
-import Cards from './components/Cards'
+import Slidercards from './components/Slidercards'
+import Presentation2 from './components/Presentation2'
+
 
 
 function App() {
@@ -9,7 +11,8 @@ function App() {
     <div className="App">
       <Navegator/>
       <Presentation/>
-      <Cards/>
+      <Slidercards/>
+      <Presentation2/>
       
     </div>
   );
