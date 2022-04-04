@@ -5,8 +5,8 @@ function Presentation2 () {
     <div className='card-presentation2'>
         
             <div className='text-container2'>
-                <h1 className='title-presetantion2'>My Recette, <br/>toutes les recette du monde à ton cousine</h1>
-                <p className='text-presentation2'>Recherchez et amusez-vous à fusionner toutes les recettes que nous avons pour vous.</p>
+                <h1 className='title-presetantion2'>My Recette, <br/>Voyagez à travers notre cuisine</h1>
+                <h2 className='text-presentation2'>Deux cuisines aux saveurs différentes et épicées .</h2>
             </div>
     </div>
   );

@@ -64,9 +64,16 @@
 
 }
 .text-container2{
-  color: white;
-  float: left;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content:center;
+text-align: center;
+padding-top: 200px;
 }  
+.text-presentation2{
+  width: 60%;
+}
 .logo{
   font-family: 'Kanit', sans-serif;
   color: salmon;
@@ -90,6 +97,7 @@ h1{
 }
 .text-presentation{
   font-size: 20px;
+
 }
 /***************************************************/
 /************** Slide Cards **************************/
