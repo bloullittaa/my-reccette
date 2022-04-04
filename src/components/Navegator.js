@@ -1,8 +1,7 @@
 import React from 'react'
-
-import Desserts from '../pages/Desserts.js'
-import Main from '../pages/Main.js'
-import Starter from '../pages/Starter.js'
+import Desserts from '../pages/Desserts'
+import Main from '../pages/Main'
+import Starter from '../pages/Starter'
 
 function Navegator() {
   return (
@@ -12,10 +11,12 @@ function Navegator() {
             <nav className='nav'>
                 <p className='logo'>My-Recette</p>
                 <ul className='list-navegation'>
-                    <li><a href="../src/pages/Starters.js" >Starters</a></li>
-                    <li><a href="../src/pages/Main.js">Main</a></li>
-                    <li><a href="">Desserts</a></li>
-                  </ul> 
+                    <li><a href="../src/pages/Desserts" >Starters</a></li>
+                    <li><a href="../src/pages/Desserts">Main</a></li>
+                    <li><a href="../src/pages/Desserts">Desserts</a></li>
+                    
+                    
+                </ul> 
         
             </nav>
             

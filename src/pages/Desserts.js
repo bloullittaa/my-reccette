@@ -1,6 +1,5 @@
 import React from 'react'
 import grenade from '../assets/images/grenade.jpg'
-import navigator from '../Components/Navegator'
 
 
 function App() {
