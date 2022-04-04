@@ -7,6 +7,8 @@ import Presentation from './Components/Presentation'
 import Navegator from './Components/Navegator'
 import Slidercards from './Components/Slidercards'
 import Presentation2 from './Components/Presentation2'
+import Main from './pages/Main';
+import Starter from './pages/Starter';
 
 
 
@@ -18,6 +20,8 @@ function App() {
       <Presentation/>
       <Slidercards/>
       <Presentation2/>
+      <Main/>
+      <Starter/>
       
     </div>
   );

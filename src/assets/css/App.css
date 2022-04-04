@@ -31,8 +31,8 @@
   
 }
 .list-navegation a:hover{
-  color: black;
-  background-color: rgb(42, 165, 93);
+  color:salmon ;
+  
 }
 .card-presentation{
   background-image: url("../images/spaghetti.jpg");
