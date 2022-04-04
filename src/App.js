@@ -1,31 +1,23 @@
-<<<<<<< HEAD
-import React from 'react'
-import './App.css'
-import Home from './pages/Home'
-import Slider from './components/Slider'
-import './components/Slider.css'
-=======
 import './assets/css/App.css';
 import Home from './pages/Home.js'
+import Desserts from './pages/Desserts';
 
-import Presentation from './components/Presentation'
-import Navegator from './components/Navegator';
-import Cards from './components/Cards';
->>>>>>> cb533755f532c9ad121c220e059dd553f211d448
+import Presentation from './Components/Presentation'
+import Navegator from './Components/Navegator';
+import Cards from './Components/Cards';
+import { Component } from 'react';
 
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
-    <Home/>
-    <Slider/>
-=======
       <Navegator/>
       <Presentation/>
       <Cards/>
->>>>>>> cb533755f532c9ad121c220e059dd553f211d448
+      
     </div>
   );
-}
 
+
+  
+}
 export default App;

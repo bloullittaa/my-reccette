@@ -6,7 +6,7 @@ function Cards() {
         <div className='card'>
             <img className='img-cards' src={require('../assets/images/cooking.jpg')} alt='plat'/> 
             <figcaption>
-                <p>lorem</p>
+                <p>yummy</p>
             </figcaption>   
 
         </div>

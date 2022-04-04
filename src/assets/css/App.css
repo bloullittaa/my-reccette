@@ -28,6 +28,11 @@
     margin-left: 50px;
     padding: 5px 0;
     font-size: 1.5em;
+  
+}
+.list-navegation a:hover{
+  color: black;
+  background-color: rgb(42, 165, 93);
 }
 .card-presentation{
   background-image: url("../images/spaghetti.jpg");
@@ -40,7 +45,10 @@
 }
 .text-container{
   color: white;
-  float: right;
+  float: right ;
+  margin-right: 50px;
+  margin-top: 150px;
+
   
 }
 .logo{
@@ -63,4 +71,7 @@ h1{
 }
 .img-cards{
   width: 120px;
+}
+.text-presentation{
+  font-size: 20px;
 }
