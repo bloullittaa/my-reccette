@@ -1,5 +1,6 @@
 import React from "react";
 
+
 import { AiOutlineRight } from 'react-icons/ai';
 import { AiOutlineLeft } from 'react-icons/ai';
 
@@ -18,66 +19,67 @@ const Slidercards =(props)=>{
     }
 
     return(
-        <div className="slider-container">
-            <AiOutlineLeft className="slider-icon right" onClick={slideLeft}/>
-            <div id="slider">
-                <div className="slider-card">
+        <div className="slider-main">
+            <div className="slider-container">
+                <AiOutlineLeft className="slider-icon right" onClick={slideLeft}/>
+                <div id="slider">
+                    <div className="slider-card">
+                        <div className="slide-img"></div>
+                        <p className="slide-title">Locrio de Pollo</p>
+                    </div>
+                    <div className="slider-card">
+                        <div className="slide-img"></div>
+                        <p className="slide-title">Titre</p>
+                    </div>
+                    <div className="slider-card">
                     <div className="slide-img"></div>
-                    <p className="slide-title">Titre</p>
-                </div>
-                <div className="slider-card">
-                    <div className="slide-img"></div>
-                    <p className="slide-title">Titre</p>
-                </div>
-                <div className="slider-card">
-                 <div className="slide-img"></div>
-                    <p className="slide-title">Titre</p>
-                </div>
-                <div className="slider-card">
-                <div className="slide-img"></div>
-                <p className="slide-title">Titre</p>
-
-                </div>
-                <div className="slider-card">
+                        <p className="slide-title">Titre</p>
+                    </div>
+                    <div className="slider-card">
                     <div className="slide-img"></div>
                     <p className="slide-title">Titre</p>
 
-                </div>
-                <div className="slider-card">
-                 <div className="slide-img"></div>
-                 <p className="slide-title">Titre</p>
+                    </div>
+                    <div className="slider-card">
+                        <div className="slide-img"></div>
+                        <p className="slide-title">Titre</p>
+
+                    </div>
+                    <div className="slider-card">
+                    <div className="slide-img"></div>
+                    <p className="slide-title">Titre</p>
+
+                    </div>
+                    <div className="slider-card">
+                    <div className="slide-img"></div>
+                    <p className="slide-title">Titre</p>
+
+                    </div>
+                    <div className="slider-card">
+                    <div className="slide-img"></div>
+                    <p className="slide-title">Titre</p>
+
+                    </div>
+                    <div className="slider-card">
+                    <div className="slide-img"></div>
+                    <p className="slide-title">Titre</p>
+
+                    </div>
+                    <div className="slider-card">
+                    <div className="slide-img"></div>
+                    <p className="slide-title">Titre</p>
+
+                    </div>
+                    <div className="slider-card">
+                    <div className="slide-img"></div>
+                    <p className="slide-title">Titre</p>
+
+                    </div>
 
                 </div>
-                <div className="slider-card">
-                <div className="slide-img"></div>
-                <p className="slide-title">Titre</p>
-
-                </div>
-                <div className="slider-card">
-                <div className="slide-img"></div>
-                <p className="slide-title">Titre</p>
-
-                </div>
-                <div className="slider-card">
-                <div className="slide-img"></div>
-                <p className="slide-title">Titre</p>
-
-                </div>
-                <div className="slider-card">
-                <div className="slide-img"></div>
-                <p className="slide-title">Titre</p>
-
-                </div>
-                <div className="slider-card">
-                <div className="slide-img"></div>
-                <p className="slide-title"></p>
-
-                </div>
-
+                <AiOutlineRight className="slider-icon left" onClick={slideRight}/>
             </div>
-            <AiOutlineRight className="slider-icon left" onClick={slideRight}/>
         </div>
-
     )
 }
 export default Slidercards

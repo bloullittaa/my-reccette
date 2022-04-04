@@ -3,10 +3,10 @@ import React from 'react'
 import './assets/css/App.css'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; 
 import Home from './pages/Home.js'
-import Presentation from './Components/Presentation'
-import Navegator from './Components/Navegator'
-import Slidercards from './Components/Slidercards'
-import Presentation2 from './Components/Presentation2'
+import Presentation from './components/Presentation'
+import Navegator from './components/Navegator'
+import Slidercards from './components/Slidercards'
+import Presentation2 from './components/Presentation2'
 
 
 
