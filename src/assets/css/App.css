@@ -30,9 +30,19 @@
     font-size: 1.5em;
   
 }
+<<<<<<< HEAD
 .list-navegation a:hover{
   color:salmon ;
   
+=======
+.list-navegation a{
+  text-decoration: none;
+  color: black;
+}
+.list-navegation a:hover{
+  color: salmon;
+  background-color: transparent;
+>>>>>>> 8a251c99954a0d72721bbde78f2efe33166898ec
 }
 .card-presentation{
   background-image: url("../images/spaghetti.jpg");
@@ -101,22 +111,23 @@ h1{
 }
 /***************************************************/
 /************** Slide Cards **************************/
+.slider-main{
+  display: flex;
+  justify-content: center;
+  
+}
 .slider-container{
-  width: 100%;
+  width: 62%;
   height: 400px;
   
   position: relative;
   display: flex;
+  
   align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+ 
   
 }
-#slider{
-  width: 100%;
-  height: 100%;
-  
-}
+
 .slider-icon{
   background-color: white;
   border-radius: 20px;
@@ -166,6 +177,9 @@ scroll-behavior: smooth;
   width: 100%;
   height: 250px;
   background: rgb(186,185,192);
+  background-image: url("../images/Locrio-de-Pollo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .slide-title{
   padding: 20px;
