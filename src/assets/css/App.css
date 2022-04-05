@@ -17,32 +17,19 @@
    background-color: yellow;
    color: black;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
+  font-size: 25px;
    padding: 10px ;
-}
-.list-navegation{
-  list-style: none;
-}
-.list-navegation li{
-    float: right;
-    margin-left: 50px;
+   float: right;
+  margin-left: 50px;
     padding: 5px 0;
-    font-size: 1.5em;
-  
 }
-<<<<<<< HEAD
-.list-navegation a:hover{
-  color:salmon ;
-  
-=======
-.list-navegation a{
+
+.nav a:hover{
+  color:salmon ; 
+}
+.nav a{
   text-decoration: none;
-  color: black;
-}
-.list-navegation a:hover{
-  color: salmon;
-  background-color: transparent;
->>>>>>> 8a251c99954a0d72721bbde78f2efe33166898ec
 }
 .card-presentation{
   background-image: url("../images/spaghetti.jpg");
@@ -183,4 +170,10 @@ scroll-behavior: smooth;
 }
 .slide-title{
   padding: 20px;
+}
+.dessert{
+  margin: 30px;
+}
+.starter{
+  margin: 30px;
 }

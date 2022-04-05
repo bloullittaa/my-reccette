@@ -29,50 +29,50 @@ const Slidercards =(props)=>{
                     </div>
                     <div className="slider-card">
                         <div className="slide-img"></div>
-                        <p className="slide-title">Titre</p>
+                        <p className="slide-title">Bourek à la viande hâchée</p>
                     </div>
                     <div className="slider-card">
                     <div className="slide-img"></div>
-                        <p className="slide-title">Titre</p>
+                        <p className="slide-title">Grenade à la fleur d'oranger</p>
                     </div>
                     <div className="slider-card">
                     <div className="slide-img"></div>
-                    <p className="slide-title">Titre</p>
+                    <p className="slide-title">Locrio de Pollo</p>
 
                     </div>
                     <div className="slider-card">
                         <div className="slide-img"></div>
-                        <p className="slide-title">Titre</p>
+                        <p className="slide-title">Bourek à la viande hâchée</p>
 
                     </div>
                     <div className="slider-card">
                     <div className="slide-img"></div>
-                    <p className="slide-title">Titre</p>
+                    <p className="slide-title">Grenade à la fleur d'oranger</p>
 
                     </div>
                     <div className="slider-card">
                     <div className="slide-img"></div>
-                    <p className="slide-title">Titre</p>
+                    <p className="slide-title">Locrio de Pollo</p>
 
                     </div>
                     <div className="slider-card">
                     <div className="slide-img"></div>
-                    <p className="slide-title">Titre</p>
+                    <p className="slide-title">Bourek à la viande hâchée</p>
 
                     </div>
                     <div className="slider-card">
                     <div className="slide-img"></div>
-                    <p className="slide-title">Titre</p>
+                    <p className="slide-title">Grenade à la fleur d'oranger</p>
 
                     </div>
                     <div className="slider-card">
                     <div className="slide-img"></div>
-                    <p className="slide-title">Titre</p>
+                    <p className="slide-title">Locrio de Pollo</p>
 
                     </div>
                     <div className="slider-card">
                     <div className="slide-img"></div>
-                    <p className="slide-title">Titre</p>
+                    <p className="slide-title">Bourek à la viande hâchée</p>
 
                     </div>
 

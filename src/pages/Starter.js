@@ -1,9 +1,9 @@
 import React from 'react'
-import Bourek from '../assets/images/bourek.jpg'
+import bourek from '../assets/images/bourek.jpg'
 
 function Starter() {
   return (
-    <div>
+    <div className='starter'>
         <img className='bourek' src='../assets/images/bourek.jpg' /> 
         <h1>Bourek à viande hachée</h1>
         <ul>
