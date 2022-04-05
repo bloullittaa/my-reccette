@@ -24,54 +24,55 @@ const Slidercards =(props)=>{
                 <AiOutlineLeft className="slider-icon right" onClick={slideLeft}/>
                 <div id="slider">
                     <div className="slider-card">
-                        <div className="slide-img"></div>
+                        <div className="slide-img-1"></div>
+
                         <p className="slide-title">Locrio de Pollo</p>
                     </div>
                     <div className="slider-card">
-                        <div className="slide-img"></div>
+                        <div className="slide-img-2"></div>
                         <p className="slide-title">Bourek à la viande hâchée</p>
                     </div>
                     <div className="slider-card">
-                    <div className="slide-img"></div>
+                    <div className="slide-img-3"></div>
                         <p className="slide-title">Grenade à la fleur d'oranger</p>
                     </div>
                     <div className="slider-card">
-                    <div className="slide-img"></div>
+                    <div className="slide-img-1"></div>
                     <p className="slide-title">Locrio de Pollo</p>
 
                     </div>
                     <div className="slider-card">
-                        <div className="slide-img"></div>
+                        <div className="slide-img-2"></div>
                         <p className="slide-title">Bourek à la viande hâchée</p>
 
                     </div>
                     <div className="slider-card">
-                    <div className="slide-img"></div>
+                    <div className="slide-img-3"></div>
                     <p className="slide-title">Grenade à la fleur d'oranger</p>
 
                     </div>
                     <div className="slider-card">
-                    <div className="slide-img"></div>
+                    <div className="slide-img-1"></div>
                     <p className="slide-title">Locrio de Pollo</p>
 
                     </div>
                     <div className="slider-card">
-                    <div className="slide-img"></div>
+                    <div className="slide-img-2"></div>
                     <p className="slide-title">Bourek à la viande hâchée</p>
 
                     </div>
                     <div className="slider-card">
-                    <div className="slide-img"></div>
+                    <div className="slide-img-3"></div>
                     <p className="slide-title">Grenade à la fleur d'oranger</p>
 
                     </div>
                     <div className="slider-card">
-                    <div className="slide-img"></div>
+                    <div className="slide-img-1"></div>
                     <p className="slide-title">Locrio de Pollo</p>
 
                     </div>
                     <div className="slider-card">
-                    <div className="slide-img"></div>
+                    <div className="slide-img-2"></div>
                     <p className="slide-title">Bourek à la viande hâchée</p>
 
                     </div>

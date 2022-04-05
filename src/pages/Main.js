@@ -1,10 +1,10 @@
 import React from 'react'
-import pollo from '../assets/images/locrio-de-pollo.jpg'
+
 
 function Main() {
   return (
     <div className='pollo'>
-    <img className='pollo' src='../assets/images/locrio-de-pollo.jpg' /> 
+
     <h1>Locrio de pollo</h1>
     <ul>
         <li>700 grammes de riz cru</li>

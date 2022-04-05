@@ -4,7 +4,7 @@ import bourek from '../assets/images/bourek.jpg'
 function Starter() {
   return (
     <div className='starter'>
-        <img className='bourek' src='../assets/images/bourek.jpg' /> 
+   
         <h1>Bourek à viande hachée</h1>
         <ul>
             <li>400 g de viande hachée</li>
